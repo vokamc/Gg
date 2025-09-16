@@ -1,5 +1,3 @@
--- V550
-
 repeat task.wait() until game:IsLoaded()
 
 game:GetService("Players").LocalPlayer.PlayerGui.Interface.FishingCatchFrame.TimingBar.SuccessArea:GetPropertyChangedSignal("Size"):Connect(function()
@@ -2979,4 +2977,5 @@ local Discord = Info:Paragraph({
             end,
         }
     }
+
 })
